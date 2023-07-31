@@ -85,6 +85,7 @@ a{
     transition: all linear .3s;
 }
 .link:hover{
+    color:#fff;
     background: #4EC5F7;
 }
 .btn{
@@ -170,4 +171,94 @@ banner-2 section start
 }
 /*----------------------------
 header section start
+------------------------------*/
+/*----------------------------
+main section start
+------------------------------*/
+/*----------------------------
+online game section start 
+------------------------------*/
+#online_game{
+    margin: 100px 0 ;
+}
+.online_game_card{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.online_game_card img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.card_img {
+    position: relative;
+    
+}
+.card_overlay{
+    position: absolute;
+    width: 100%;
+    height: 93%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: 0;
+    transition: all linear .3s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 13px;
+    transition: all linear .3s;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top; 
+}
+.card_overlay .sec_text_1{
+    font-weight: 600;
+}
+.card:hover .card_overlay{
+    visibility: visible;
+    transform: scaleY(1);
+    border: 3px solid #F948B2;
+}
+/*----------------------------
+Play Instantly section start 
+------------------------------*/
+#play_instantly{
+    margin-bottom: 200px;
+}
+.play_instantly_text{
+    padding-right: 100px;
+}
+.play_instantly_img{
+    position: relative;
+    
+}
+.play_instantly_img .img_2{
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+  
+}
+/*----------------------------
+Play game section start 
+------------------------------*/
+#play_game{
+    margin: 100px 0;
+}
+.play_game_text{
+    padding-left: 100px;
+    
+}
+.play_game_img{
+    position: relative;
+    
+}
+.play_game_img .img_2{
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+}
+/*----------------------------
+main section end
 ------------------------------*/
