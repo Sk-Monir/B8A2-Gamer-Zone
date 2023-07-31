@@ -1,0 +1,173 @@
+/*----------------------------
+google font link start
+------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/*----------------------------
+google font link end
+------------------------------*/
+/*----------------------------
+Common css link start
+------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.sec_ttl{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom:20px ;
+}
+.sec_text_1{
+    color:#534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom:20px ;
+
+}
+.sec_text_2{
+    color: #0B0223;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom:20px ;
+
+}
+.sec_text_3{
+    color:#534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.gradient{
+    background:linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient_2{
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.link{
+    color:#3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 48px;
+    transition: all linear .3s;
+}
+.link:hover{
+    background: #4EC5F7;
+}
+.btn{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    background-image:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    transition: all linear 0.3s;
+    margin-bottom: 20px;
+    border: 1px solid #FF42A5;
+    border-radius: 48px;
+}
+.btn:hover{
+    background: #4EC5F7;
+    border: 1px solid #4EC5F7;
+
+}
+/*----------------------------
+google font link end
+------------------------------*/
+/*----------------------------
+header section start
+------------------------------*/
+/*----------------------------
+navbar section start
+------------------------------*/
+#header{
+    padding: 50px 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo .sec_ttl{
+    padding:0 10px;
+    font-size:45px ;
+
+}
+.menu a{
+    margin-right: 15px;
+}
+.logo_icon{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+    display: flex;
+    align-items: center;
+}
+.logo_icon span{
+    color:#3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.logo_icon i{
+    font-size: 30px;
+}
+.logo_icon .fa-youtube{
+    color:#F61C0D;
+    margin-left: 10px;
+}
+.logo_icon .fa-tiktok{
+    color: #000000;
+}
+/*----------------------------
+banner-1 section start
+------------------------------*/
+#banner .sec_ttl{
+    font-weight: 600;
+}
+#banner .sec_ttl_2{
+    font-size: 95px;
+    font-weight:800 ;
+    margin-bottom: 20px;
+}
+/*----------------------------
+banner-2 section start
+------------------------------*/
+#banner_2{
+    padding: 0 70px 0 20px
+}
+/*----------------------------
+header section start
+------------------------------*/
