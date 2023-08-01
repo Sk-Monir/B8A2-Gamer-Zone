@@ -260,5 +260,28 @@ Play game section start
     right: -100px;
 }
 /*----------------------------
+careers section start 
+------------------------------*/
+#careers_sec{
+    margin: 200px 0;
+    padding: 0 0 0 50px;
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);    ;
+}
+.careers_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#careers_sec .sec_ttl,
+#careers_sec .sec_text_2,
+#careers_sec .sec_text_1{
+    color: #fff;
+}
+.item_name, .item_location{
+    display: flex;
+    flex-direction: column;
+}
+
+/*----------------------------
 main section end
 ------------------------------*/
