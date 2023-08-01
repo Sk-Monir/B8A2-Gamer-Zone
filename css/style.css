@@ -56,7 +56,6 @@ a{
     font-size: 18px;
     font-weight: 400;
     margin-bottom:20px ;
-
 }
 .sec_text_3{
     color:#534C64;
@@ -82,7 +81,7 @@ a{
     font-weight: 500;
     padding: 15px 25px;
     border-radius: 48px;
-    transition: all linear .3s;
+    transition: all .3s linear;
 }
 .link:hover{
     color:#fff;
@@ -92,9 +91,9 @@ a{
     color:#fff;
     font-size: 20px;
     font-weight: 600;
-    padding: 21px 40px;
+    padding: 18px 36px;
     background-image:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    transition: all linear 0.3s;
+    transition: all  0.3s linear;
     margin-bottom: 20px;
     border: 1px solid #FF42A5;
     border-radius: 48px;
@@ -102,7 +101,6 @@ a{
 .btn:hover{
     background: #4EC5F7;
     border: 1px solid #4EC5F7;
-
 }
 /*----------------------------
 google font link end
@@ -193,7 +191,6 @@ online game section start
 }
 .card_img {
     position: relative;
-    
 }
 .card_overlay{
     position: absolute;
@@ -231,14 +228,12 @@ Play Instantly section start
     padding-right: 100px;
 }
 .play_instantly_img{
-    position: relative;
-    
+    position: relative;  
 }
 .play_instantly_img .img_2{
     position: absolute;
     bottom: -100px;
     left: -100px;
-  
 }
 /*----------------------------
 Play game section start 
@@ -247,12 +242,10 @@ Play game section start
     margin: 100px 0;
 }
 .play_game_text{
-    padding-left: 100px;
-    
+    padding-left: 100px; 
 }
 .play_game_img{
-    position: relative;
-    
+    position: relative; 
 }
 .play_game_img .img_2{
     position: absolute;
@@ -281,7 +274,70 @@ careers section start
     display: flex;
     flex-direction: column;
 }
+/*----------------------------
+Game button section start 
+------------------------------*/
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    border: 1px solid #FFF;
+    transition: all .3s linear;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 48px;
+}
+.buttons button:hover{
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
 
+}
 /*----------------------------
 main section end
+------------------------------*/
+/*----------------------------
+footer section start
+------------------------------*/
+#footer {
+    background-color: #0B0223;
+    padding: 100px 0; 
+}
+#footer .sec_ttl{
+    margin-bottom: 0;
+    color: #FFF;
+}
+.footer_center{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+.footer_nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.footer_nav .link{
+    color: #fff;
+}
+.footer_icon i{
+    color: #fff;
+    font-size: 30px;
+}
+.footer_nav_2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0 40px 0;
+}
+/*----------------------------
+footer section end
 ------------------------------*/
